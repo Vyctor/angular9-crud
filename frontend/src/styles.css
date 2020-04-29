@@ -25,3 +25,9 @@ body {
 .v-middle {
   vertical-align: middle;
 }
+
+.panel {
+  background-color: #202020;
+  color: #ffffff;
+  border-radius: 150px;
+}

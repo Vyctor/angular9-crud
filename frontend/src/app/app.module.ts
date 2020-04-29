@@ -23,6 +23,10 @@ import { MatSidenavModule } from "@angular/material/sidenav";
 import { MatListModule } from "@angular/material/list";
 import { MatCardModule } from "@angular/material/card";
 import { MatButtonModule } from "@angular/material/button";
+import { MatSnackBarModule } from "@angular/material/snack-bar";
+
+// HTTP CLIENT to access the api
+import { HttpClientModule } from "@angular/common/http";
 
 @NgModule({
   declarations: [
@@ -40,11 +44,13 @@ import { MatButtonModule } from "@angular/material/button";
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    HttpClientModule,
     MatToolbarModule,
     MatSidenavModule,
     MatListModule,
     MatCardModule,
     MatButtonModule,
+    MatSnackBarModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
