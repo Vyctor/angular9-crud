@@ -1,19 +1,9 @@
 {
   "products": [
     {
-      "id": 1,
-      "name": "Black Pen",
-      "price": 5.89
-    },
-    {
-      "id": 2,
-      "name": "Macbook Pro",
-      "price": 1200
-    },
-    {
-      "id": 1,
-      "name": "Samsung S20+",
-      "price": 680
+      "name": "Teste",
+      "price": "1200",
+      "id": 1
     }
   ]
 }

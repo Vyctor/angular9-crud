@@ -22,12 +22,6 @@ body {
   vertical-align: middle;
 }
 
-.panel {
-  background-color: #202020;
-  color: #ffffff;
-  border-radius: 150px;
-}
-
 html,
 body {
   height: 100%;
@@ -35,4 +29,14 @@ body {
 body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.msg-success {
+  background-color: #3f51b5;
+  color: #fff;
+}
+
+.msg-error {
+  background-color: #e35e6b;
+  color: #fff;
 }

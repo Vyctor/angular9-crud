@@ -1,25 +1,27 @@
 <mat-card>
-  <mat-card-title> New Product</mat-card-title>
+  <mat-card-title> Delete Product</mat-card-title>
   <form>
     <mat-form-field>
       <input
         matInput
         placeholder="Name"
-        [(ngModel)]="product.name"
+        [value]="product.name"
         name="name"
+        disabled
       />
     </mat-form-field>
     <mat-form-field>
       <input
         matInput
         placeholder="Price (R$)"
-        [(ngModel)]="product.price"
+        [value]="product.price"
         name="price"
+        disabled
       />
     </mat-form-field>
   </form>
-  <button mat-raised-button (click)="createProduct()" color="accent">
-    Save
+  <button mat-raised-button (click)="deleteProduct()" color="warn">
+    Delete
   </button>
   <button mat-raised-button (click)="cancel()" color="primary">
     Cancel
